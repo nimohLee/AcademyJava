@@ -1,16 +1,19 @@
+import java.util.Scanner;
+
 class Var3{
 	public static void main(String[] args){
-		int i = 10;
-		String str = "10";
+		Scanner scan = new Scanner(System.in);
+		System.out.println("몸무게를 입력하시오");
+		int wei = scan.nextInt();
+		System.out.println("키를 입력하시오(m)");
+		float hei = scan.nextFloat()/100;
 		
-		int a = Integer.parseInt(str)+str;
+		float bmi = wei/(hei*hei);
 		
-		float f = 20f;
-		String str2 = "20";
+		System.out.print("당신의 BMI 지수는"+bmi+"입니다.");
 		
-		System.out.println(i+str);
-		System.out.println(f+str2);
-		System.out.println(str+str2);
-		System.out.println(a);
+		
+		
+		
 	}
 }
