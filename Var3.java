@@ -12,10 +12,11 @@ class Var3{
 		System.out.println("당신의 BMI 지수는"+bmi+"입니다.");
 		
 		if(bmi>=18.5&&bmi<=24.9)
-			System.out.println("정상체중입니다");
+			System.out.println("*********정상체중입니다*********");
 		else if(bmi>=25)
-			System.out.println("비만입니다");
-
+			System.out.println("*********비만입니다**********");
+		else
+			System.out.println("정상적인 입력하시오");
 
 		
 	}
