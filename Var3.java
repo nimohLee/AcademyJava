@@ -18,6 +18,5 @@ class Var3{
 		else
 			System.out.println("정상적인 입력하시오");
 
-		
 	}
 }
