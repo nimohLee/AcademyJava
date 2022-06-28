@@ -23,7 +23,7 @@ class Sallary{
 				System.out.print((int)(sallary*1.05*1.05*1.05));
 		}
 		else 
-			System.out.print((int)(sallary*1.1));
+			System.out.print((int)((sallary*1.05*1.05*1.05)*1.1));
 		
 		System.out.print("만원 입니다.");
 
