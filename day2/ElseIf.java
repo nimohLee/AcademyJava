@@ -1,13 +1,13 @@
-import java.util.Scanner;
+rimport java.util.Scanner;
 
-class IfTest4{
-
-public static void main(String[] args){
-
+class ElseIf{
+	public static void main(String[] args){
+	
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("점수 입력: ");
 		int point = sc.nextInt();
+		
 		
 		if(point<=100&&point>=90)
 			System.out.print("결과 : A");
@@ -22,6 +22,7 @@ public static void main(String[] args){
 		else
 			System.out.print("잘못 입력되었습니다.");
 	
+	
 	}
-
+	
 }
