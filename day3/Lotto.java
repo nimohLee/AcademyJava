@@ -1,0 +1,13 @@
+class Lotto{
+	public static void main(String[] args){
+		int[] nums = new int[6];
+		for(int i=0;i<nums.length;i++){
+			int ran = (int)(Math.random()*45)+1;
+			nums[i]=ran;
+		}// 로또 배열에 1~45까지 값 다 넣기
+	
+		for(int i=0;i<nums.length;i++){
+			System.out.print(nums[i]+" ");
+		}
+	}
+}

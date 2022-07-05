@@ -8,7 +8,7 @@ class Main{
         int b = sc.nextInt();
         int c = sc.nextInt();
         int tmp;
-        
+       
         if(a==b&& b==c)
             System.out.println(10000+(a*1000));
         else if(a==b)
@@ -20,22 +20,20 @@ class Main{
         else{
             while(!(a>b&&b>c)){
                 if(b>a){
-                    tmp=a;
+                    tmp = a;
                     a = b;
                     b = tmp;
                 }
-                else if(c>b){
+                if(c>b){
                     tmp=b;
                     b = c;
-                    b = tmp;
+                    c = tmp;
                 }
 				
             }
+			System.out.println((a*100));
         }
-             System.out.println((a*100));
-			System.out.println(a);
-			System.out.println(b);
-			System.out.println(c);
+            
         
     }
 }
